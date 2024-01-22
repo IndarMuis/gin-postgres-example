@@ -12,7 +12,7 @@ func NewDatabase() *sql.DB {
 	pgPort := "5432"
 	pgDbName := "gin_db"
 	pgUser := "postgres"
-	pgPassword := "al0homora"
+	pgPassword := "password"
 
 	dsn := fmt.Sprintf("host=%s port=%s user=%s password=%s dbname=%s sslmode=disable", pgHost, pgPort, pgUser, pgPassword, pgDbName)
 
